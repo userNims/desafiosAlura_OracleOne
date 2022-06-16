@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <figure>
+        <a href="../projectsOneOracle.html"><img src="../images/alura_logo.png" class="logo"/></a>
+    </figure>
+
+    <section class="verificarTexto">
+        <p id="textoEncriptado" wrap="hard"></p>
+        <figure>
+            <img src="../images/asset01_searching.png" class="imagenSinTexto"/>
+        </figure>
+        <article id="titulo">
+            <p>Ningún mensaje fue encontrado</p>
+        </article>
+        <aside id="tituloInformacion">
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </aside>
+        <section id="btnCopiarSection">
+            <button type="button" class="boton btnCopiar">Copiar</button>
+        </section>
+    </section>
+    
+
+    <section class="ingresarTexto">
+        <textarea class="textoIngresado" placeholder="Ingrese un texto" autofocus></textarea>
+        <section class="botonesDivision">
+            <article class="informacion">
+                <p id="textInformation"><i class="fa fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</p>
+            </article>
+
+            <section class="botones">
+                <button type="button" class="boton btnEncriptar">Encriptar</button>
+                <button type="button" class="boton btnDesencriptar">Desencriptar</button>
+            </section>
+        </section>
+    </section>
+
+    <script type="text/javascript" src="../scripts/encriptador.js"></script>
+</body>
+</html>

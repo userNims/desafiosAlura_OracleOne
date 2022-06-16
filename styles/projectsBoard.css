@@ -1,0 +1,39 @@
+body {
+    background-color: #FFF;
+    margin: 0px;
+    padding: 50px 60px;
+    font-family: monospace;
+}
+
+.projectsBoard {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+    .card {
+        border: 2px solid #9DD1F1;
+        display: inline-block;
+        height: 200px;
+        margin-top: 4px;
+        padding: 30px auto;
+        text-align: center;
+        width: 215px;
+    }
+
+    .card:hover {
+        background-color: #004E89;
+        border-color: #004E89;
+    }
+
+    .card img {
+        width: 90%;
+        padding-top: 10px;
+    }
+
+    .cardInfo {
+        margin-top: 10px;
+        font-size: 20px;
+    }

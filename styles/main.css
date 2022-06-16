@@ -1,0 +1,116 @@
+body {
+    background-color: #eaeeff;
+    font-family: monospace;
+}
+
+/** Logo **/
+.logo {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 6%;
+}
+
+/** Imagen y mensaje de la derecha **/
+.verificarTexto {
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    width: 25%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+    .imagenSinTexto {
+        width: 90%;
+        margin: 160px 5% 10px 5%;
+    }
+
+    #titulo p{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+        font-size: 25px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    #tituloInformacion {
+        text-align: center;
+        width: 90%;
+        margin: 5px auto;
+        margin-bottom: 130px;
+        font-size: 15px;
+        font-family: monospace;
+    }
+
+    #textoEncriptado {
+        font-size: 20px;
+        position: absolute;
+        top: 50px;
+        bottom: 60px;
+        left: 10px;
+        right: 10px;
+        border: 0;
+        background-color: #fbfbfb;
+        z-index: 10;
+        resize: none;
+        outline: none;
+        visibility: hidden;
+        overflow: scroll;
+    }
+
+/** Parte donde se ingresa el texto **/
+.ingresarTexto {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 200px;
+    width: 40%;
+}
+
+    .textoIngresado {
+        position: absolute;
+        width: 400px;
+        bottom: 150px;
+        height: 400px;
+        border: 0;
+        outline: none;
+        background-color: #eaeeff;
+        font-size: 30px;
+        color: #004E89;
+        resize: none;
+    }
+
+/** Información y botones **/
+#textInformation {
+    font-size: 19px;
+}
+
+.informacion{
+    margin-bottom: 20px;
+}
+.botones {
+    text-align: center;
+}
+    .boton {
+        padding: 10px;
+        width: 40%;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .boton:hover {
+        color: whitesmoke;
+        background-color: #004E89;
+        border-color: #004E89;
+    }
+
+    .btnCopiar {
+        width: 80%;
+    }
+
+
