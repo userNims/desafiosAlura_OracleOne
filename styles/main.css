@@ -16,7 +16,7 @@ body {
     background-color: #fbfbfb;
     position: absolute;
     top: 50px;
-    bottom: 50px;
+    bottom: 70px;
     right: 50px;
     width: 25%;
     border-radius: 50px;
@@ -81,7 +81,7 @@ body {
         font-size: 30px;
         color: #004E89;
         resize: none;
-    }
+}
 
 /** Información y botones **/
 #textInformation {
@@ -110,6 +110,8 @@ body {
     }
 
     .btnCopiar {
+        position: relative;
+        bottom: 90px;
         width: 80%;
     }
 

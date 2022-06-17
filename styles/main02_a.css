@@ -1,0 +1,122 @@
+body {
+    background-color: #eaeeff;
+    font-family: monospace;
+}
+
+/** Logo **/
+.logo {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 6%;
+}
+
+
+/** Dibujo del ahorcado **/
+.dibujoAhorcado {
+    /* border: 1px solid red; */
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    left: 32%;
+}
+
+
+/** Parte donde se ingresa el texto **/
+.palabraDivision{
+    position: relative;
+    top: 400px;
+    /* border: 1px solid red; */
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+    .palabraAdivinada {
+        /* border: 1px solid red; */
+        height:80px;
+        width:95%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+
+        #palabraIngresada {
+            /* border: 1px solid red; */
+            width: 100%;
+        }
+
+    .subrayado {
+        /* border: 1px solid red; */
+        height:30px;
+        width:95%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 70px;
+        left:-13px;
+        font-size: 50px;
+    }
+
+    .palabraEquivocada {
+        /* border: 1px solid red; */
+        height:50px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+/** Información y botones **/
+.botones {
+    position: relative;
+    top: 450px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+    .boton {
+        padding: 10px;
+        width: 40%;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    .boton:hover {
+        color: whitesmoke;
+        background-color: #004E89;
+        border-color: #004E89;
+        text-decoration: none;
+    }
+
+
+/** Opciones de juego **/    
+.btnJuego {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    /* border: 1px solid red; */
+}
+
+    .btnJugar {
+        display: block;
+        text-decoration: none;
+        /* border: 1px solid red; */
+        margin: 20px auto;
+    }
+
+    .btnOpciones {
+        display: block;
+        text-decoration: none;
+        /* border: 1px solid red; */
+        margin: 20px auto;
+    }
+    
+    a:link { text-decoration: none; }
+
+
+    a:visited { text-decoration: none; }
+
+
+    a:hover { text-decoration: none; }
+
+
+    a:active { text-decoration: none; }

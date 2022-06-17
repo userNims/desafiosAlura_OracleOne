@@ -35,5 +35,11 @@ body {
 
     .cardInfo {
         margin-top: 10px;
+        margin-bottom: 20px;
         font-size: 20px;
+    }
+
+    #ahorcadoImg {
+        width: 70%;
+        /* border: 1px solid red; */
     }

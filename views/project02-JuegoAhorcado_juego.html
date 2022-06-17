@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <link rel="stylesheet" href="../styles/main02_a.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <figure>
+        <a href="../index.html"><img src="../images/alura_logo.png" class="logo"/></a>
+    </figure>
+
+    <section class="dibujoAhorcado">
+        <canvas id="myCanvas" width="300" height="300" style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML5 canvas tag.</canvas>
+    </section>
+
+    <section class="palabraDivision">
+        <div class="palabraAdivinada"></div>
+        <div class="subrayado"></div>
+        <div class="palabraEquivocada"></div>
+    </section>
+
+    <section class="botones">
+        <button type="button" class="boton" onClick="window.location.reload();">Nuevo juego</button>
+        <a href="./project02-JuegoAhorcado.html"><button type="button" class="boton">Desistir</button></a>
+    </section>
+    
+    <script type="text/javascript" src="../scripts/ahorcado_palabras.js"></script>r
+    <script type="text/javascript" src="../scripts/ahorcado.js"></script>
+</body>
+</html>
